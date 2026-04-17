@@ -9,6 +9,14 @@ object feroz {
       return "no esta saludable"
   }
 
+  method aumentarPeso(valor) {
+    peso = peso + valor
+  }
+
+  method disminuirPeso(valor) {
+    peso = peso - valor
+  }
+
   method sufrirCrisis(pesoInicial) {
     pesoInicial = 10
   }
