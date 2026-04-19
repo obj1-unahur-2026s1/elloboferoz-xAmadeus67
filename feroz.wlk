@@ -25,7 +25,7 @@ object feroz {
     peso = peso -1
   }
 
-  method comerA_(comida) {
+  method comer(comida) {
     peso = peso + (comida.peso() * 0.1)
   }
 }
