@@ -5,6 +5,9 @@ object caperucita {
     method cantidadManzanasEn_(canasta) {
         return canasta / 2  
     }
+    method caerManzana() {
+      caperucita.canasta() = caperucita.canasta() - 1
+    }
 }
 
 //-----------------
