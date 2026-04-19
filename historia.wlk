@@ -11,7 +11,7 @@ method primeraHistoria() {
   feroz.comer(abuelita)
   caperucita.caerManzana()
   feroz.comer(caperucita)
-  feroz.comer(canasto)
+  feroz.comer(canasta)
   cazador.provocarCrisis()
   feroz.sufrirCrisis()
   feroz.esSaludable(feroz)
@@ -30,6 +30,7 @@ method segundaHistoria() {
   feroz.comer(abuelita)
   caperucita.caerManzana()
   feroz.comer(caperucita)
+  feroz.comer(canasta)
   feroz.comer(cazador)
   feroz.esSaludable(feroz)
 }
