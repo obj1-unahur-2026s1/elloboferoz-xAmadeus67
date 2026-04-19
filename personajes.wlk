@@ -19,10 +19,7 @@ object cazador {
     var peso = 70 + escopeta
     var escopeta = 2
 
-    method provocarCrisisA_(feroz) {
-        if (escopeta > 0) {
-            escopeta = escopeta - 1
-            feroz.peso() = 10 
-        }
+    method provocarCrisis() {
+        escopeta = escopeta - 1
     }
 }
