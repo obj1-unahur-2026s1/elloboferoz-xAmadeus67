@@ -8,6 +8,9 @@ object caperucita {
     method caerManzana() {
       caperucita.canasta() = caperucita.canasta() - 1
     }
+    method canastoInicial() {
+        caperucita.canasta() = 6
+    }
 }
 
 //-----------------
