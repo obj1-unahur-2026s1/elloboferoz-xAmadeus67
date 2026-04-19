@@ -1,7 +1,7 @@
 object feroz {
   var peso = 10
 
-  method esSaludableElPesoDe_(peso) {
+  method esSaludable() {
     if (peso => 20 || peso <= 150) {
       return "esta saludable"
     }
