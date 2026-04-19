@@ -1,7 +1,7 @@
 object feroz {
-  var property peso = 10
+  var peso = 10
 
-  method estaSaludable(peso) {
+  method esSaludablePesar_(peso) {
     if (peso => 20 || peso <= 150) {
       return "esta saludable"
     }
@@ -9,11 +9,11 @@ object feroz {
       return "no esta saludable"
   }
 
-  method aumentarPeso(valor) {
+  method aumentarPesoEn_(valor) {
     peso = peso + valor
   }
 
-  method disminuirPeso(valor) {
+  method disminuirPesoEn_(valor) {
     peso = peso - valor
   }
 
@@ -25,7 +25,7 @@ object feroz {
     peso = peso -1
   }
 
-  method comer(comida) {
-    peso = peso + (comida.peso * 0.1)
+  method comerA_(comida) {
+    peso = peso + (comida.peso() * 0.1)
   }
 }
