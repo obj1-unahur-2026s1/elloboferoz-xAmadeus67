@@ -17,7 +17,7 @@ object feroz {
     peso = peso - valor
   }
 
-  method sufrirCrisis(pesoInicial) {
+  method sufrirCrisis() {
     pesoInicial = 10
   }
 
