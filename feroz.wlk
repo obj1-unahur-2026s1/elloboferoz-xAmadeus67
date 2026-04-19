@@ -1,8 +1,8 @@
 object feroz {
   var peso = 10
 
-  method esSaludable() {
-    if (peso => 20 || peso <= 150) {
+  method esSaludable(feroz) {
+    if (feroz.peso() => 20 || feroz.peso() <= 150) {
       return "esta saludable"
     }
     else 
@@ -27,5 +27,9 @@ object feroz {
 
   method comer(comida) {
     peso = peso + (comida.peso() * 0.1)
+  }
+
+  method pesoInicial() {
+    peso = 10
   }
 }
